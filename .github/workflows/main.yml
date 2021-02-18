@@ -43,5 +43,5 @@ jobs:
       - name: skim
         run: | 
           chmod +x ./skim
-          printf "$USER_PASS" | base64 -d | kinit $USER_NAME@CERN.CH
+          printf ${{ secrets.USER_PASS }} | kinit ${{ secrets.USER_NAME }}@CERN.CH
           ./skim root://eospublic.cern.ch//eos/root-eos/HiggsTauTauReduced/GluGluToHToTauTau.root skim_ggH.root 19.6 11467.0 0.1
