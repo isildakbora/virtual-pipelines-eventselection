@@ -44,4 +44,4 @@ jobs:
         run: | 
           chmod +x ./skim
           printf "$USER_PASS" | base64 -d | kinit $USER_NAME@CERN.CH
-          ./skim root://eosuser.cern.ch//eos/user/g/gstark/AwesomeWorkshopFeb2020/GluGluToHToTauTau.root skim_ggH.root 19.6 11467.0 0.1
+          ./skim root://eosuser.cern.ch//eos/user/i/isildak/SWAN_projects/githubcicd/virtual-pipelines-eventselection/skims/GluGluToHToTauTau.root skim_ggH.root 19.6 11467.0 0.1
