@@ -1,4 +1,4 @@
-# Example analysis for the analysis preservation bootcamp
+#Example analysis for the analysis preservation bootcamp
 
 The example is an educational version of a Higgs to two tau lepton analysis based on NanoAOD-like samples from the CERN Open Data portal. To fit the computational effort of the analysis in the scope of the workshop, the samples are reduced beforehand. See the documentation below for the single steps.
 
